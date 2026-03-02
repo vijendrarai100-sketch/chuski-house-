@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chuski House</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+background:#3B1F0B;
+color:#FFF5E1;
+font-family: Arial, sans-serif;
+margin:0;
+text-align:center;
+}
+section{padding:60px 20px;}
+h1,h2{color:#D4731A;}
+button{
+background:#D4731A;
+color:#3B1F0B;
+padding:12px 25px;
+border:none;
+font-weight:bold;
+cursor:pointer;
+}
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+max-width:800px;
+margin:auto;
+}
+.card{
+border:2px solid #D4731A;
+padding:20px;
+}
+input,textarea{
+width:80%;
+padding:10px;
+margin:10px 0;
+}
+footer{
+background:#2a1508;
+padding:20px;
+}
+</style>
+</head>
+<body>
+
+<section>
+<h1>CHUSKI HOUSE</h1>
+<p>Garam Chai. Sadak Wali Yaadein.</p>
+<button>View Menu</button>
+</section>
+
+<section>
+<h2>Tapri Special</h2>
+<div class="menu">
+<div class="card">Kulhad Chai - ₹20</div>
+<div class="card">Adrak Chai - ₹25</div>
+<div class="card">Masala Chai - ₹30</div>
+<div class="card">Tandoori Chai - ₹40</div>
+<div class="card">Chocolate Chai - ₹45</div>
+<div class="card">Bun Maska - ₹35</div>
+</div>
+</section>
+
+<section>
+<h2>About Us</h2>
+<p>Chuski House ek jagah nahi, ek feeling hai. Asli desi tapri vibe.</p>
+</section>
+
+<section>
+<h2>Contact</h2>
+<input type="text" placeholder="Name"><br>
+<input type="email" placeholder="Email"><br>
+<textarea placeholder="Message"></textarea><br>
+<button>Send</button>
+</section>
+
+<footer>
+© 2026 Chuski House | Garam Chai Garam Yaadein
+</footer>
+
+</body>
+</html>
